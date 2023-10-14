@@ -1,0 +1,23 @@
+Crée par Maxime Carpentier
+
+Projet Machine Learing :
+
+Objectif :      - Apprendre le fonctionnement d'une machine learing 
+
+Description :   Creation d'un réseau de neron simple, apprend par lui meme
+
+V1.1 : Compratimentation et Amélioration
+
+V1.0 :  Reprise du projet
+
+    - Correction de bug :   - modification du nombre de couche et de neurone qui etait mal pris en compte dans certaine boucle.
+    - Ajout :   - Affichage du réseau de neurone :
+                    - Positionnement des neurone et des liaison
+                    - affectiation d'une couleur pour different poids sur les liaison:
+                        - Utilisation de la fonctione pour normalisé des donnée entre x = [0,1] : x = (y-y_min)/(y_max-y_min)
+                    - affectiation d'une couleur pour les valeur actuelle sur les liaison (en partie):
+                        - Utilisation de la fonction pour normalisé (!BUG!)
+    - A faire : - Mettre des poids sur chaque neurone et pas seulment sur les connection
+                - Compartimenté mon code en plusieurs Class : Play, Game, ML
+                - Chercher d'autres bugs
+
