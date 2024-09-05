@@ -20,7 +20,7 @@ class Game:
         self.enemis_pos = [rd.randint(301, 600),250]
         self.player_pos = [rd.randint(0, 249), 250]
 
-        self.IA = ML()
+        self.IA = ML()   
         self.IA.update_neron_ML(0.00001)
 
         self.Loop()
@@ -178,4 +178,4 @@ class ML:
 
 
 
-game = Game(200,5)
+game = Game(200,20)
